@@ -76,7 +76,66 @@ main {
     background-color: white;
     padding: 20px;
     margin: 10px;
-    width: 30%;
+    width: 20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.software-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.software-item p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.download-banner {
+    background-image: url('URL_DA_IMAGEM'); /* Coloque aqui o link da imagem */
+    background-size: cover;
+    background-position: center;
+    height: 150px; /* Defina a altura do banner */
+    margin-bottom: 20px; /* Espaço abaixo do banner */
+    border-radius: 8px 8px 0 0; /* Apenas arredonda o topo */
+}
+
+.software-item {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.software-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.software-item p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.download-banner {
+    background-image: url('assets/pinkiegame-banner.jpg'); /* Caminho relativo */
+
+    background-size: cover; /* A imagem vai cobrir toda a área do banner */
+    background-position: center; /* A imagem será centralizada */
+    height: 150px; /* Altura do banner */
+    margin-bottom: 20px; /* Espaço abaixo do banner */
+    border-radius: 8px 8px 0 0; /* Apenas arredonda o topo */
+}
+
+.software-item {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 20%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: center;
